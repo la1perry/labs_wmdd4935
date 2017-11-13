@@ -8,6 +8,10 @@
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4",
+    "inert": "^4.2.1",
     "socket.io": "~0.9.14"
+  },
+  "devDependencies": {
+    "hapi": "^16.6.2"
   }
 }
