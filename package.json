@@ -8,8 +8,11 @@
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4",
+    "h2o2": "^6.0.1",
     "inert": "^4.2.1",
-    "socket.io": "~0.9.14"
+    "joi": "^13.0.2",
+    "socket.io": "~0.9.14",
+    "vision": "^4.1.1"
   },
   "devDependencies": {
     "hapi": "^16.6.2"

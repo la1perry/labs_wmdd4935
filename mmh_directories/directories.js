@@ -15,14 +15,14 @@ server.register(Inert,(err)=>{
 
 server.route({
     method:'GET',
-    path:'/where/is/it/{filename}',
+    path:'/foo/bar/baz/{filename}',
     handler:{ 
         directory:{
             path: Path.join(__dirname, 'public')
         }
     }
     
-})
+});
 
 server.start((err)=>{
     if(err)throw err;
